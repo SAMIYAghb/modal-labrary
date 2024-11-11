@@ -1,6 +1,6 @@
 {
   "name": "modal-labrary",
-  "version": "1.4.2",
+  "version": "1.4.4",
   "main": "lib/Modal.js", 
   "module": "lib/Modal.js",
   "files": [
@@ -8,12 +8,12 @@
     "README.md",
     "src/Modal.css"
   ],
-  "repository": {    "type": "git",    "url": "URL_OF_YOUR_REPOSITORY"  },
+  "repository": {    "type": "git",    "url": "https://github.com/SAMIYAghb/modal-labrary"  },
   "scripts": {
     "build": "rm -rf lib && NODE_ENV=production babel src --out-dir lib --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "keywords": ["react", "modal", "component"],
-  "author": "Samiya BRD",
+  "author": "Samiya Bouridane",
   "license": "ISC",
   "description": "A simple modal component for React",
   "peerDependencies": {
